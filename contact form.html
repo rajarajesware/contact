@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <style>
+        #{
+            box-sizing: border-box;
+        }
+        div{
+            border: none;
+            background-color: rgba(128, 128, 128, 0.37);
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            border: radius 5px;
+
+        }
+        input,select,label{
+            display: inline-block;
+            padding: 16px;
+            border-radius: 5px;
+            width: 80%;
+            border: transparent;
+        }
+        input [type="submit"]{
+            
+            color: white;
+            border: none;
+            margin-top: 5px;
+            display: inline-block;
+            width: 100%;
+
+        } 
+        button:hover{
+            cursor: pointer;
+            background-color: blueviolet;
+            color: white;
+        }
+       
+       
+        
+        textarea{
+            display: block;
+            padding: 16px;
+            border-radius: 5px;
+
+        }
+        input[type="text"],select{
+            border: 1px solid transparent;
+        }
+        </style>
+
+
+    <body>
+        <div class="container">
+        <form action="#">
+        <fieldset><legend>CONTACT FORM</legend>
+        <label for="fname"><strong> First Name:</strong></label>
+        <input type="text" name="fname" id="fname" placeholder="Enter Your Name">
+        <label for ="lname"><strong>Last Name </strong></label>
+        <input type ="text" name="lname" id="lname" placeholder="Enter Your Name">
+        <label for="tel"><strong>Telephone:</strong></label>
+        <input type="tel" name="t" id="t">
+        <label for="addr"><strong>Address</strong></label>
+        <textarea name="addr" id="addr" cols="30" rows="10"></textarea><br>
+        <button type="submit"><strong>SUBMIT</strong> </button>
+        </div>
+
+        </fieldset>
+        </form>
+    </body>
+</html>
